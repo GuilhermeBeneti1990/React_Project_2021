@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import ThemeProvider from 'ThemeProvider/ThemeProvider'
+import GlobalStyle from 'styles/GlobalStyle'
+import Home from 'components/pages/Home'
 
-export default App;
+const App = () => (
+  <ThemeProvider>
+    <GlobalStyle />
+    <Home />
+  </ThemeProvider>
+)
+
+export default App
