@@ -3,7 +3,7 @@ import Grid from './Grid'
 import styled from 'styled-components'
 
 export default {
-  title: 'Atoms/Grid',
+  title: 'Components/Atoms/Grid',
   component: Grid
 }
 

@@ -4,7 +4,7 @@ import { FaCar, FaKey, FaMapMarkedAlt, FaAccessibleIcon } from 'react-icons/fa'
 import Grid from '../Grid/Grid'
 
 export default {
-  title: 'Atoms/Feature',
+  title: 'Components/Atoms/Feature',
   component: Feature
 }
 

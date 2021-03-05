@@ -3,7 +3,7 @@ import Accordion from './Accordion'
 import AccordionGroup from 'components/molecules/Accordion/AccordionGroup/AccordionGroup'
 
 export default {
-  title: 'Molecules/Accordion',
+  title: 'Components/Molecules/Accordion',
   component: Accordion
 }
 

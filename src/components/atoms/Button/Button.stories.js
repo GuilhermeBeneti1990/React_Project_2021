@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { actions } from '@storybook/addon-actions'
 
 export default {
-  title: 'Atoms/Button',
+  title: 'Components/Atoms/Button',
   component: Button
 }
 

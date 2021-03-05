@@ -7,7 +7,7 @@ import Heading from '../../atoms/Heading/Heading'
 import Button from '../../atoms/Button/Button'
 
 export default {
-  title: 'Molecules/Hero',
+  title: 'Components/Molecules/Hero',
   component: Hero
 }
 

@@ -8,7 +8,7 @@ import Button from 'components/atoms/Button/Button'
 import UnderImage from 'assets/underground.jpg'
 
 export default {
-  title: ' Molecules/Card',
+  title: ' Components/Molecules/Card',
   component: Card,
   subcomponents: { CardBody, CardMedia }
 }
