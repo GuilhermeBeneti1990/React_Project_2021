@@ -14,7 +14,12 @@ import Accordion from 'components/molecules/Accordion/Accordion'
 import AccordionGroup from 'components/molecules/Accordion/AccordionGroup/AccordionGroup'
 
 import Video from 'assets/video.mp4'
-import Image from 'assets/underground.jpg'
+import Food1 from 'assets/food_01.jpg'
+import Food2 from 'assets/food_02.jpg'
+import Food3 from 'assets/food_03.jpg'
+import Food4 from 'assets/food_04.jpg'
+import Food5 from 'assets/food_05.jpg'
+import Food6 from 'assets/food_06.jpg'
 import Footer from 'components/organisms/Footer/Footer'
 
 const products = [
@@ -22,37 +27,37 @@ const products = [
     id: 1,
     title: 'Produto/Serviço 01',
     description: 'Descrição desse produto ou serviço',
-    image: Image
+    image: Food1
   },
   {
     id: 2,
     title: 'Produto/Serviço 02',
     description: 'Descrição desse produto ou serviço',
-    image: Image
+    image: Food2
   },
   {
     id: 3,
     title: 'Produto/Serviço 03',
     description: 'Descrição desse produto ou serviço',
-    image: Image
+    image: Food3
   },
   {
     id: 4,
     title: 'Produto/Serviço 04',
     description: 'Descrição desse produto ou serviço',
-    image: Image
+    image: Food4
   },
   {
     id: 5,
     title: 'Produto/Serviço 05',
     description: 'Descrição desse produto ou serviço',
-    image: Image
+    image: Food5
   },
   {
     id: 6,
     title: 'Produto/Serviço 06',
     description: 'Descrição desse produto ou serviço',
-    image: Image
+    image: Food6
   }
 ]
 
@@ -74,28 +79,16 @@ const Home = () => (
     <Section>
       <Grid sm={2} md={4}>
         <Feature icon={<FaCar />} title="Feature 01">
-          <p>
-            Descrição detalhada da categoria, qualidade ou vantagem do produto
-            ou serviço 01
-          </p>
+          <p>Descrição detalhada da vantagem n•1</p>
         </Feature>
         <Feature icon={<FaKey />} title="Feature 02">
-          <p>
-            Descrição detalhada da categoria, qualidade ou vantagem do produto
-            ou serviço 02
-          </p>
+          <p>Descrição detalhada da vantagem n•1</p>
         </Feature>
         <Feature icon={<FaMapMarkedAlt />} title="Feature 03">
-          <p>
-            Descrição detalhada da categoria, qualidade ou vantagem do produto
-            ou serviço 03
-          </p>
+          <p>Descrição detalhada da vantagem n•1</p>
         </Feature>
         <Feature icon={<FaAccessibleIcon />} title="Feature 04">
-          <p>
-            Descrição detalhada da categoria, qualidade ou vantagem do produto
-            ou serviço 04
-          </p>
+          <p>Descrição detalhada da vantagem n•1</p>
         </Feature>
       </Grid>
     </Section>
