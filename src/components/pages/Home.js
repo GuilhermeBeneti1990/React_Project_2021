@@ -74,24 +74,27 @@ const Home = () => (
     <Section>
       <Grid sm={2} md={4}>
         <Feature icon={<FaCar />} title="Feature 01">
-          <p>Categoria, qualidade ou vantagens</p>
+          <p>
+            Descrição detalhada da categoria, qualidade ou vantagem do produto
+            ou serviço 01
+          </p>
         </Feature>
         <Feature icon={<FaKey />} title="Feature 02">
           <p>
             Descrição detalhada da categoria, qualidade ou vantagem do produto
-            ou serviço
+            ou serviço 02
           </p>
         </Feature>
         <Feature icon={<FaMapMarkedAlt />} title="Feature 03">
           <p>
             Descrição detalhada da categoria, qualidade ou vantagem do produto
-            ou serviço
+            ou serviço 03
           </p>
         </Feature>
         <Feature icon={<FaAccessibleIcon />} title="Feature 04">
           <p>
             Descrição detalhada da categoria, qualidade ou vantagem do produto
-            ou serviço
+            ou serviço 04
           </p>
         </Feature>
       </Grid>
