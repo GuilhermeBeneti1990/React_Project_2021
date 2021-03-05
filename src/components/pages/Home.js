@@ -20,38 +20,38 @@ import Footer from 'components/organisms/Footer/Footer'
 const products = [
   {
     id: 1,
-    title: 'Card Title',
-    description: 'description test description test description test',
+    title: 'Produto/Serviço 01',
+    description: 'Descrição desse produto ou serviço',
     image: Image
   },
   {
     id: 2,
-    title: 'Card Title',
-    description: 'description test description test description test',
+    title: 'Produto/Serviço 02',
+    description: 'Descrição desse produto ou serviço',
     image: Image
   },
   {
     id: 3,
-    title: 'Card Title',
-    description: 'description test description test description test',
+    title: 'Produto/Serviço 03',
+    description: 'Descrição desse produto ou serviço',
     image: Image
   },
   {
     id: 4,
-    title: 'Card Title',
-    description: 'description test description test description test',
+    title: 'Produto/Serviço 04',
+    description: 'Descrição desse produto ou serviço',
     image: Image
   },
   {
     id: 5,
-    title: 'Card Title',
-    description: 'description test description test description test',
+    title: 'Produto/Serviço 05',
+    description: 'Descrição desse produto ou serviço',
     image: Image
   },
   {
     id: 6,
-    title: 'Card Title',
-    description: 'description test description test description test',
+    title: 'Produto/Serviço 06',
+    description: 'Descrição desse produto ou serviço',
     image: Image
   }
 ]
@@ -60,41 +60,38 @@ const Home = () => (
   <>
     <Hero image={HeroImg}>
       <Heading>
-        <h1>Title</h1>
+        <h1>Título da Aplicação</h1>
       </Heading>
       <ul>
-        <li>Item 01</li>
-        <li>Item 02</li>
-        <li>Item 03</li>
+        <li>Vantagem 01</li>
+        <li>Vantagem 02</li>
+        <li>Vantagem 03</li>
       </ul>
       <Button color="primary" variant="outlined">
-        Botão
+        Contratar
       </Button>
     </Hero>
     <Section>
       <Grid sm={2} md={4}>
-        <Feature icon={<FaCar />} title="test 01">
+        <Feature icon={<FaCar />} title="Feature 01">
+          <p>Categoria, qualidade ou vantagens</p>
+        </Feature>
+        <Feature icon={<FaKey />} title="Feature 02">
           <p>
-            Feature Test Feature Test Feature Test Feature Test Feature Test
-            Feature Test Feature Test Feature Test
+            Descrição detalhada da categoria, qualidade ou vantagem do produto
+            ou serviço
           </p>
         </Feature>
-        <Feature icon={<FaKey />} title="test 02">
+        <Feature icon={<FaMapMarkedAlt />} title="Feature 03">
           <p>
-            Feature Test Feature Test Feature Test Feature Test Feature Test
-            Feature Test Feature Test Feature Test
+            Descrição detalhada da categoria, qualidade ou vantagem do produto
+            ou serviço
           </p>
         </Feature>
-        <Feature icon={<FaMapMarkedAlt />} title="test 03">
+        <Feature icon={<FaAccessibleIcon />} title="Feature 04">
           <p>
-            Feature Test Feature Test Feature Test Feature Test Feature Test
-            Feature Test Feature Test Feature Test
-          </p>
-        </Feature>
-        <Feature icon={<FaAccessibleIcon />} title="test 04">
-          <p>
-            Feature Test Feature Test Feature Test Feature Test Feature Test
-            Feature Test Feature Test Feature Test
+            Descrição detalhada da categoria, qualidade ou vantagem do produto
+            ou serviço
           </p>
         </Feature>
       </Grid>
@@ -109,15 +106,15 @@ const Home = () => (
       <Grid md={2}>
         <div>
           <Heading>
-            <h2>Projeto Teste</h2>
+            <h2>Detalhe do projeto teste</h2>
           </Heading>
-          <p>Projeto teste teste teste teste teste teste teste teste</p>
+          <p>Descrição mais detalhada do projeto teste</p>
           <div>
             <Button color="primary">Saiba mais</Button>
           </div>
         </div>
         <div>
-          <video src={Video} width="100%" autoPlay loop />
+          <video src={Video} width="100%" autoPlay loop muted />
         </div>
       </Grid>
     </Section>
@@ -126,9 +123,9 @@ const Home = () => (
         <h2>Dúvidas Frequentes</h2>
       </Heading>
       <AccordionGroup>
-        <Accordion title="Accordion 01">Accordion 01 01 01 01 01</Accordion>
-        <Accordion title="Accordion 02">Accordion 02 02 02 02 02</Accordion>
-        <Accordion title="Accordion 03">Accordion 03 03 03 03 03</Accordion>
+        <Accordion title="Dúvida 01">Descrição da primeira dúvida</Accordion>
+        <Accordion title="Dúvida 02">Descrição da segunda dúvida</Accordion>
+        <Accordion title="Dúvida 03">Descrição da terceira dúvida</Accordion>
       </AccordionGroup>
     </Section>
     <Footer />

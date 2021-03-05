@@ -11,8 +11,7 @@ export const Container = styled.div`
   }
 
   ${breakAt(BreakpointSizes.lg)} {
-    padding: 0;
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
   }
 `
