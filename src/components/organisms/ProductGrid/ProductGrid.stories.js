@@ -4,7 +4,7 @@ import ProductGrid from './ProductGrid'
 import UnderImage from 'assets/underground.jpg'
 
 export default {
-  title: ' Organisms/ProductGrid',
+  title: 'Components/Organisms/ProductGrid',
   component: ProductGrid
 }
 
