@@ -25,7 +25,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:coverage": "npm run test -- --coverage --watchAll=false",
+    "cover": "npm run test -- --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
@@ -40,8 +40,12 @@
   },
   "jest:": {
     "collectCoverageFrom": [
-      "src/**/**/*.js",
-      "!src/**/**/*.stories.js",
+      "src/components/**/**/*.js",
+      "!src/components/atoms/**/*.stories.js",
+      "!src/components/molecules/**/*.stories.js",
+      "!src/components/organisms/**/*.stories.js",
+      "!src/components/template/**/*.stories.js",
+      "!src/components/pages/**/*.stories.js",
       "!src/serviceWorker.js",
       "!src/index.js"
     ]
