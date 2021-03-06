@@ -4,7 +4,7 @@ orbs:
   node: circleci/node@4.0.0
 
 jobs:
-  setup:
+  tests:
     docker:
       - image: circleci/node:12.18.3-browsers
     steps:
@@ -12,6 +12,8 @@ jobs:
       - node/install-npm
       - run: node --version
       - run: npm --version
+      - node/install-packages
+      - run: npm run lint
 
 workflows:
   ci:
