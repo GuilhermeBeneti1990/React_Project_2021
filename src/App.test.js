@@ -4,6 +4,6 @@ import App from './App'
 
 test('it should render react button', () => {
   const { getByText } = render(<App />)
-  const btnElement = getByText(/botão/i)
+  const btnElement = getByText(/contratar/i)
   expect(btnElement).toBeInTheDocument()
 })
