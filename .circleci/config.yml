@@ -18,4 +18,4 @@ jobs:
 workflows:
   ci:
     jobs:
-      - setup
+      - tests
