@@ -4,5 +4,7 @@
 
 - Continuous Delivery: Processo de CD implementado com Vercel(PaaS), Chromatic para Storybook e GitHub
 
+- Continuous Integration: Processo de CI implementado com CircleCI
+
 - [Demonstração online da aplicação](https://react-project-2021-5njkblu1r-guilhermebeneti1990.vercel.app)
 - [Documentação dos componentes da aplicação]()
