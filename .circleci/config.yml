@@ -11,14 +11,23 @@ jobs:
     steps:
       - checkout
       - node/install-npm
-      - run: node --version
-      - run: npm --version
+      - run:
+          name: Show Node version
+          command: |
+            node --version
+            npm --version
       - node/install-packages
-      - run: npm run lint
-      - run: npm run cover
+      - run:
+          name: Run lint check
+          command: npm run lint
+      - run:
+          name: Unit tests with coverage
+          command: npm run cover
       - codecov/upload:
           file: coverage/*.json
-      # - run: npm run chromatic --project-token=${CHROMATIC_TOKEN}
+      # - run:
+      #     name: Publishing to Chromatic
+      #     command: npm run chromatic --project-token=${CHROMATIC_TOKEN}
   versioning:
     docker:
       - image: circleci/node:12.18.3-browsers
