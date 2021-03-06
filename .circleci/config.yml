@@ -16,7 +16,7 @@ jobs:
       - node/install-packages
       - run: npm run lint
       - run: npm run test:coverage
-      - codecov:
+      - codecov/upload:
           file: coverage/*.json
 
 workflows:

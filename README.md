@@ -1,6 +1,7 @@
 # Projeto Teste
 
 ![CircleCI](https://img.shields.io/circleci/build/github/GuilhermeBeneti1990/React_Project_2021?style=plastic)
+![Codecov](https://img.shields.io/codecov/c/github/GuilhermeBeneti1990/React_Project_2021?style=plastic)
 
 - Projeto teste usando ReactJS, Storybook, Styled-Components, Jest, testing-library, Temas, Atomic Design.
 
