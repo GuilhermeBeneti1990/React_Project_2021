@@ -1,16 +1,16 @@
 import React from 'react'
-import Card, { CardBody, CardMedia } from './Card'
+import Card, { CardBody, CardMedia, CardMediaDescription } from './Card'
 
 import Section from 'components/atoms/Section/Section'
 import Heading from 'components/atoms/Heading/Heading'
 import Button from 'components/atoms/Button/Button'
 
-import UnderImage from 'assets/underground.jpg'
+import Food from 'assets/food_01.jpg'
 
 export default {
   title: ' Components/Molecules/Card',
   component: Card,
-  subcomponents: { CardBody, CardMedia }
+  subcomponents: { CardBody, CardMedia, CardMediaDescription }
 }
 
 export const usage = () => (
@@ -34,7 +34,7 @@ export const usage = () => (
 export const withMedia = () => (
   <Section inverse>
     <Card>
-      <CardMedia image={UnderImage} />
+      <CardMedia image={Food} />
       <CardBody>
         <Heading>
           <h6>Card Title</h6>
@@ -46,6 +46,18 @@ export const withMedia = () => (
           </Button>
         </div>
       </CardBody>
+    </Card>
+  </Section>
+)
+
+export const onlyMedia = () => (
+  <Section inverse>
+    <Card>
+      <CardMedia image={Food}>
+        <CardMediaDescription>
+          <h5>Descrição da imagem</h5>
+        </CardMediaDescription>
+      </CardMedia>
     </Card>
   </Section>
 )

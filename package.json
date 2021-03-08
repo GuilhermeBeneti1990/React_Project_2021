@@ -25,12 +25,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "cover": "npm run test -- --coverage --watchAll=false",
+    "cover": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "chromatic": "chromatic --exit-zero-on-changes",
-    "lint": "eslint src/**/*.js"
+    "lint": "eslint src/**/*.js",
+    "svg": "svgr --icon --replace-attr-values '#ffc107=currentColor' -d src/draws/"
   },
   "eslintConfig": {
     "extends": [
@@ -39,15 +40,14 @@
     ]
   },
   "jest:": {
+    "collectCoverage": true,
     "collectCoverageFrom": [
-      "src/components/**/**/*.js",
-      "!src/components/atoms/**/*.stories.js",
-      "!src/components/molecules/**/*.stories.js",
-      "!src/components/organisms/**/*.stories.js",
-      "!src/components/template/**/*.stories.js",
-      "!src/components/pages/**/*.stories.js",
-      "!src/serviceWorker.js",
-      "!src/index.js"
+      "src/components/**/**/*.test.js",
+      "!src/components/**/**/*.stories.js",
+      "!src/App.js",
+      "!src/index.js",
+      "!src/reportWebVitals.js"
+      
     ]
   },
   "browserslist": {

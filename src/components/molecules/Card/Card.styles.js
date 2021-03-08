@@ -16,8 +16,26 @@ export const Body = styled.div`
 `
 
 export const Media = styled.div`
+  display: flex;
   background-image: url(${(props) => props.image});
   background-position: center center;
   background-size: cover;
   height: 270px;
+`
+
+export const MediaDescription = styled.div`
+  align-self: flex-end;
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 8px 16px;
+  color: #fff;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
 `
