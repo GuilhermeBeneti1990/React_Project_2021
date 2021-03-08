@@ -27,7 +27,7 @@ jobs:
           file: coverage/*.json
       - run:
           name: Publishing to Chromatic (Storybook)
-          command: npm run chromatic --project-token=${CHROMATIC_TOKEN}
+          command: npm run chromatic --project-token=${CHROMATIC_PROJECT_TOKEN}
   # versioning:
   #   docker:
   #     - image: circleci/node:12.18.3-browsers
