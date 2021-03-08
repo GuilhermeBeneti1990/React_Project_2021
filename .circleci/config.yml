@@ -28,14 +28,14 @@ jobs:
       # - run:
       #     name: Publishing to Chromatic (Storybook)
       #     command: npm run chromatic --project-token=${CHROMATIC_TOKEN}
-  versioning:
-    docker:
-      - image: circleci/node:12.18.3-browsers
-    steps:
-      - checkout
-      - run:
-          name: Package version check
-          command: node scripts/check-version GuilhermeBeneti1990 React_Project_2021
+  # versioning:
+  #   docker:
+  #     - image: circleci/node:12.18.3-browsers
+  #   steps:
+  #     - checkout
+  #     - run:
+  #         name: Package version check
+  #         command: node scripts/check-version GuilhermeBeneti1990 React_Project_2021
 
 workflows:
   ci:
