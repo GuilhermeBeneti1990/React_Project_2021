@@ -26,7 +26,7 @@ jobs:
       - codecov/upload:
           file: coverage/*.json
       - run:
-          name: Publishing to Chromatic
+          name: Publishing to Chromatic (Storybook)
           command: npm run chromatic --project-token=${CHROMATIC_TOKEN}
   versioning:
     docker:
