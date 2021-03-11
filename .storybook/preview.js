@@ -3,14 +3,15 @@ import { addDecorator, addParameters } from '@storybook/react'
 import GlobalStyle from '../src/styles/GlobalStyle'
 import ThemeProvider, { ThemeNames } from '../src/ThemeProvider/ThemeProvider'
 import { select } from '@storybook/addon-knobs'
+import { MemoryRouter as Router } from 'react-router-dom'
 
 addDecorator((storyFn) => (
-  <>
+  <Router>
     <ThemeProvider theme={select('Theme', ThemeNames, ThemeNames.light)}>
       <GlobalStyle />
       {storyFn()}
     </ThemeProvider>
-  </>
+  </Router>
 ))
 
 const viewports = {

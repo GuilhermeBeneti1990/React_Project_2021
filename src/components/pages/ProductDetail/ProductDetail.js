@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import Hero from 'components/molecules/Hero/Hero'
 import HeroImg from 'assets/cover.jpg'
@@ -15,15 +14,24 @@ import {
 } from '../../organisms/Callout/Callout'
 import { PinnedList, PinnedItem } from 'components/atoms/PinnedTag/PinnedTag'
 import RegisterImg from 'draws/Register'
+import Breadcrumb from 'components/atoms/Breadcrumb/Breadcrumb'
 
 import { FaIdCard, FaHome, FaScroll } from 'react-icons/fa'
+import ProductType from 'types/ProductType'
 
-const ProductDetail = () => (
+const ProductDetail = ({ product }) => (
   <>
     <Hero image={HeroImg}>
       <Heading>
-        <h1>Nome do produto</h1>
+        <h1>{product.title}</h1>
       </Heading>
+      <Breadcrumb
+        items={[
+          { label: 'Home', link: '/' },
+          { label: 'Product' },
+          { label: product.title }
+        ]}
+      />
     </Hero>
     <Section>
       <p>Descrição do produto</p>
@@ -63,8 +71,12 @@ const ProductDetail = () => (
   </>
 )
 
-ProductDetail.defaultProps = {}
+ProductDetail.defaultProps = {
+  product: {}
+}
 
-ProductDetail.propTypes = {}
+ProductDetail.propTypes = {
+  product: ProductType
+}
 
 export default ProductDetail

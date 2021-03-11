@@ -1,11 +1,14 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 
 import Grid from 'components/atoms/Grid/Grid'
 import Card, { CardMedia, CardBody } from 'components/molecules/Card/Card'
 import Heading from 'components/atoms/Heading/Heading'
 import Button from 'components/atoms/Button/Button'
 import { MoreBtn } from './ProductGrid.styles'
+
+import ProductType from 'types/ProductType'
 
 const ProductGrid = ({ products }) => {
   const [showAll, setShowAll] = useState(false)
@@ -23,7 +26,12 @@ const ProductGrid = ({ products }) => {
               </Heading>
               <p>{product.description}</p>
               <div>
-                <Button color="primary" variant="link">
+                <Button
+                  as={Link}
+                  to={`/product/${product.slang}`}
+                  color="primary"
+                  variant="link"
+                >
                   Saiba mais...
                 </Button>
               </div>
@@ -47,14 +55,7 @@ ProductGrid.defaultProps = {
 }
 
 ProductGrid.propTypes = {
-  products: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-      image: PropTypes.string,
-      title: PropTypes.string,
-      description: PropTypes.string
-    })
-  )
+  products: PropTypes.arrayOf(ProductType)
 }
 
 export default ProductGrid

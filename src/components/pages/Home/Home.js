@@ -1,5 +1,6 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
+import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 import { FaCar, FaKey, FaMapMarkedAlt, FaAccessibleIcon } from 'react-icons/fa'
 
 import Hero from 'components/molecules/Hero/Hero'
@@ -14,54 +15,11 @@ import Accordion from 'components/molecules/Accordion/Accordion'
 import AccordionGroup from 'components/molecules/Accordion/AccordionGroup/AccordionGroup'
 
 import Video from 'assets/video.mp4'
-import Food1 from 'assets/food_01.jpg'
-import Food2 from 'assets/food_02.jpg'
-import Food3 from 'assets/food_03.jpg'
-import Food4 from 'assets/food_04.jpg'
-import Food5 from 'assets/food_05.jpg'
-import Food6 from 'assets/food_06.jpg'
 import Footer from 'components/organisms/Footer/Footer'
 
-const products = [
-  {
-    id: 1,
-    title: 'Produto/Serviço 01',
-    description: 'Descrição desse produto ou serviço',
-    image: Food1
-  },
-  {
-    id: 2,
-    title: 'Produto/Serviço 02',
-    description: 'Descrição desse produto ou serviço',
-    image: Food2
-  },
-  {
-    id: 3,
-    title: 'Produto/Serviço 03',
-    description: 'Descrição desse produto ou serviço',
-    image: Food3
-  },
-  {
-    id: 4,
-    title: 'Produto/Serviço 04',
-    description: 'Descrição desse produto ou serviço',
-    image: Food4
-  },
-  {
-    id: 5,
-    title: 'Produto/Serviço 05',
-    description: 'Descrição desse produto ou serviço',
-    image: Food5
-  },
-  {
-    id: 6,
-    title: 'Produto/Serviço 06',
-    description: 'Descrição desse produto ou serviço',
-    image: Food6
-  }
-]
+import ProductType from 'types/ProductType'
 
-const Home = () => (
+const Home = ({ products }) => (
   <>
     <Hero image={HeroImg}>
       <Heading>
@@ -106,11 +64,13 @@ const Home = () => (
           </Heading>
           <p>Descrição mais detalhada do projeto teste</p>
           <div>
-            <Button color="primary">Saiba mais</Button>
+            <Button as={Link} to="/about" color="primary">
+              Saiba mais
+            </Button>
           </div>
         </div>
         <div>
-          <video src={Video} width="100%" autoPlay loop muted />
+          <video src={Video} width="100%" autoPlay playsInline loop muted />
         </div>
       </Grid>
     </Section>
@@ -128,8 +88,12 @@ const Home = () => (
   </>
 )
 
-// Home.defaultProps = {}
+Home.defautProps = {
+  products: []
+}
 
-// Home.propTypes = {}
+Home.propTypes = {
+  products: PropTypes.arrayOf(ProductType)
+}
 
 export default Home

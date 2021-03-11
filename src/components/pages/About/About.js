@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { ImageContainer } from './About.styles'
 
 import Hero from 'components/molecules/Hero/Hero'
@@ -13,6 +12,7 @@ import Card, {
   CardMedia,
   CardMediaDescription
 } from 'components/molecules/Card/Card'
+import Breadcrumb from 'components/atoms/Breadcrumb/Breadcrumb'
 
 import ProfImg01 from 'assets/teachers/prof_01.jpg'
 import ProfImg02 from 'assets/teachers/prof_02.jpg'
@@ -60,6 +60,12 @@ const About = () => (
       <Heading>
         <h1>Página de Sobre</h1>
       </Heading>
+      <Breadcrumb
+        items={[
+          { label: 'Home', link: '/' },
+          { label: 'About', link: '/about' }
+        ]}
+      />
     </Hero>
     <Section>
       <Grid md={2}>
@@ -126,9 +132,5 @@ const About = () => (
     <Footer />
   </>
 )
-
-About.defaultProps = {}
-
-About.propTypes = {}
 
 export default About
