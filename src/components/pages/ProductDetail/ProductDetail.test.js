@@ -5,5 +5,5 @@ import ProductDetail from './ProductDetail'
 
 test('it should render Product Detail Page', () => {
   render(<ProductDetail />)
-  expect(screen.getByText('Nome do produto')).toBeInTheDocument()
+  expect(screen.getByText('Descrição do produto')).toBeInTheDocument()
 })
