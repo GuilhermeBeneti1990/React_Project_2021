@@ -1,9 +1,13 @@
 import React from 'react'
 import Home from './Home'
 
+import { buildProducts } from 'models/builders/products'
+
 export default {
   title: 'Components/Pages/Home',
   component: Home
 }
 
-export const usage = () => <Home />
+const products = buildProducts(8)
+
+export const usage = () => <Home products={products} />

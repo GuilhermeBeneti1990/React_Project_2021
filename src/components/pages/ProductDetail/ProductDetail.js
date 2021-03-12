@@ -17,7 +17,7 @@ import RegisterImg from 'draws/Register'
 import Breadcrumb from 'components/atoms/Breadcrumb/Breadcrumb'
 
 import { FaIdCard, FaHome, FaScroll } from 'react-icons/fa'
-import ProductType from 'types/ProductType'
+import ProductType from 'models/types/ProductType'
 
 const ProductDetail = ({ product }) => (
   <>

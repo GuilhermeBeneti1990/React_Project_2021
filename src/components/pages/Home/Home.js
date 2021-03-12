@@ -17,7 +17,7 @@ import AccordionGroup from 'components/molecules/Accordion/AccordionGroup/Accord
 import Video from 'assets/video.mp4'
 import Footer from 'components/organisms/Footer/Footer'
 
-import ProductType from 'types/ProductType'
+import ProductType from 'models/types/ProductType'
 
 const Home = ({ products }) => (
   <>

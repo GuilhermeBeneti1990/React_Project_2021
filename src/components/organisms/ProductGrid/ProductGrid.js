@@ -8,7 +8,7 @@ import Heading from 'components/atoms/Heading/Heading'
 import Button from 'components/atoms/Button/Button'
 import { MoreBtn } from './ProductGrid.styles'
 
-import ProductType from 'types/ProductType'
+import ProductType from 'models/types/ProductType'
 
 const ProductGrid = ({ products }) => {
   const [showAll, setShowAll] = useState(false)
