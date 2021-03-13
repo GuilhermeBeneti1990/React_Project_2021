@@ -5,7 +5,7 @@ import Section from 'components/atoms/Section/Section'
 import Heading from 'components/atoms/Heading/Heading'
 import Button from 'components/atoms/Button/Button'
 
-import Food from 'assets/food_01.jpg'
+import Item from 'assets/Item_01.jpg'
 
 export default {
   title: ' Components/Molecules/Card',
@@ -34,7 +34,7 @@ export const usage = () => (
 export const withMedia = () => (
   <Section inverse>
     <Card>
-      <CardMedia image={Food} />
+      <CardMedia image={Item} />
       <CardBody>
         <Heading>
           <h6>Card Title</h6>
@@ -53,7 +53,7 @@ export const withMedia = () => (
 export const onlyMedia = () => (
   <Section inverse>
     <Card>
-      <CardMedia image={Food}>
+      <CardMedia image={Item}>
         <CardMediaDescription>
           <h5>Descrição da imagem</h5>
         </CardMediaDescription>

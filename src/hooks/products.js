@@ -1,52 +1,52 @@
-import Food1 from 'assets/food_01.jpg'
-import Food2 from 'assets/food_02.jpg'
-import Food3 from 'assets/food_03.jpg'
-import Food4 from 'assets/food_04.jpg'
-import Food5 from 'assets/food_05.jpg'
-import Food6 from 'assets/food_06.jpg'
+import Item1 from 'assets/Item_01.jpg'
+import Item2 from 'assets/Item_02.jpg'
+import Item3 from 'assets/Item_03.jpg'
+import Item4 from 'assets/Item_04.jpg'
+import Item5 from 'assets/Item_05.jpg'
+import Item6 from 'assets/Item_06.jpg'
 
 const products = [
   {
     id: 1,
     title: 'Produto 01',
     slang: 'primeiro-produto',
-    description: 'Descrição desse produto ou serviço',
-    image: Food1
+    description: 'Descrição desse produto',
+    image: Item1
   },
   {
     id: 2,
     title: 'Produto 02',
     slang: 'segundo-produto',
-    description: 'Descrição desse produto ou serviço',
-    image: Food2
+    description: 'Descrição desse produto',
+    image: Item2
   },
   {
     id: 3,
     title: 'Produto 03',
     slang: 'terceiro-produto',
-    description: 'Descrição desse produto ou serviço',
-    image: Food3
+    description: 'Descrição desse produto',
+    image: Item3
   },
   {
     id: 4,
     title: 'Produto 04',
     slang: 'quarto-produto',
-    description: 'Descrição desse produto ou serviço',
-    image: Food4
+    description: 'Descrição desse produto',
+    image: Item4
   },
   {
     id: 5,
     title: 'Produto 05',
     slang: 'quinto-produto',
-    description: 'Descrição desse produto ou serviço',
-    image: Food5
+    description: 'Descrição desse produto',
+    image: Item5
   },
   {
     id: 6,
     title: 'Produto 06',
     slang: 'sexto-produto',
-    description: 'Descrição desse produto ou serviço',
-    image: Food6
+    description: 'Descrição desse produto',
+    image: Item6
   }
 ]
 

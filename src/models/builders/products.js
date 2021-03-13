@@ -1,4 +1,4 @@
-import Food01 from 'assets/food_01.jpg'
+import Item01 from 'assets/Item_01.jpg'
 import products from './fixtures/products.json'
 
 export const buildProducts = (size) => {
@@ -7,7 +7,7 @@ export const buildProducts = (size) => {
   for (let i = 0; i < size; i++) {
     result.push({
       ...products[i],
-      image: Food01
+      image: Item01
     })
   }
 

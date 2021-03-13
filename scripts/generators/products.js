@@ -1,6 +1,6 @@
 const faker = require('faker')
 
-// import Food01 from 'assets/food_01.jpg'
+// import Item01 from 'assets/Item_01.jpg'
 
 const buildProducts = (size) => {
   const result = []

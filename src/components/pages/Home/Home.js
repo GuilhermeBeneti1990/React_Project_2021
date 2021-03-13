@@ -26,33 +26,33 @@ const Home = ({ products }) => (
         <h1>Título da Aplicação</h1>
       </Heading>
       <ul>
-        <li>Vantagem 01</li>
-        <li>Vantagem 02</li>
-        <li>Vantagem 03</li>
+        <li>Mais comodidade para seu dia-a-dia</li>
+        <li>Torne-se um proifissional valorizado no mercado</li>
+        <li>Re-escreva sua história todos os dias</li>
       </ul>
       <Button color="primary" variant="outlined">
-        Contratar
+        Assinar
       </Button>
     </Hero>
     <Section>
       <Grid sm={2} md={4}>
         <Feature icon={<FaCar />} title="Feature 01">
-          <p>Descrição detalhada da vantagem n•1</p>
+          <p>Descrição da feature n•1</p>
         </Feature>
         <Feature icon={<FaKey />} title="Feature 02">
-          <p>Descrição detalhada da vantagem n•1</p>
+          <p>Descrição da feature n•2</p>
         </Feature>
         <Feature icon={<FaMapMarkedAlt />} title="Feature 03">
-          <p>Descrição detalhada da vantagem n•1</p>
+          <p>Descrição da feature n•3</p>
         </Feature>
         <Feature icon={<FaAccessibleIcon />} title="Feature 04">
-          <p>Descrição detalhada da vantagem n•1</p>
+          <p>Descrição da feature n•4</p>
         </Feature>
       </Grid>
     </Section>
     <Section inverse>
       <Heading>
-        <h2>Conheça nossos serviços</h2>
+        <h2>Conheça nossos produtos</h2>
         <ProductGrid products={products} />
       </Heading>
     </Section>
@@ -60,9 +60,9 @@ const Home = ({ products }) => (
       <Grid md={2}>
         <div>
           <Heading>
-            <h2>Detalhe do projeto teste</h2>
+            <h2>Quem somos?</h2>
           </Heading>
-          <p>Descrição mais detalhada do projeto teste</p>
+          <p>Breve descrição da empresa</p>
           <div>
             <Button as={Link} to="/about" color="primary">
               Saiba mais

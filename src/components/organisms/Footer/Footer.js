@@ -21,8 +21,8 @@ const Footer = () => (
             <h6>Projeto Teste</h6>
           </Heading>
           <p>
-            Teste teste teste teste teste teste teste teste teste teste teste
-            teste
+            Somos uma empresa líder no mercado em que atuamos, conheça-nos e
+            aprenda muito mais.
           </p>
         </div>
         <div>
@@ -39,7 +39,7 @@ const Footer = () => (
             <IconContainer>
               <FaBuilding />
             </IconContainer>
-            teste teste teste teste teste teste teste teste teste
+            Entre em contato conosco, estamos á disposição!
           </p>
         </div>
         <div>

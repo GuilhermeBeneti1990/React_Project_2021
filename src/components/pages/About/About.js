@@ -62,27 +62,32 @@ const About = () => (
       </Heading>
       <Breadcrumb
         items={[
-          { label: 'Home', link: '/' },
-          { label: 'About', link: '/about' }
+          { label: 'Início', link: '/' },
+          { label: 'Sobre', link: '/about' }
         ]}
       />
     </Hero>
     <Section>
       <Grid md={2}>
         <div>
-          <p>Texto da página de sobre</p>
-          <p>Texto da página de sobre</p>
-          <p>Texto da página de sobre</p>
+          <p>
+            Ut at massa lorem. Phasellus molestie nunc ac sapien vehicula,
+            porttitor congue justo hendrerit. Donec venenatis sed lectus
+            accumsan pretium. Mauris arcu metus, ultrices vel congue sed,
+            porttitor eu dolor. Donec lobortis ut augue eu aliquet. Proin
+            malesuada pellentesque erat, in luctus diam luctus eget. Suspendisse
+            at aliquet velit. Sed quis ante non turpis tincidunt facilisis. In
+            eros sapien, hendrerit in condimentum sit amet, pulvinar vel erat.
+            Aliquam commodo suscipit velit at tristique.
+          </p>
           <ul>
-            <li>Item - Sobre 01</li>
-            <li>Item - Sobre 02</li>
-            <li>Item - Sobre 03</li>
-            <li>Item - Sobre 04</li>
-            <li>Item - Sobre 05</li>
+            <li>Empresa Inovadora</li>
+            <li>Focada nas pessoas</li>
+            <li>Eficiência no que faz</li>
+            <li>Melhor rendimento do mundo</li>
           </ul>
         </div>
         <div>
-          <p>Texto da página sobre referente a imagem abaixo</p>
           <center>
             <ImageContainer>
               <AboutImg />

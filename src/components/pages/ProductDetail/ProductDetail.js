@@ -27,39 +27,50 @@ const ProductDetail = ({ product }) => (
       </Heading>
       <Breadcrumb
         items={[
-          { label: 'Home', link: '/' },
-          { label: 'Product' },
+          { label: 'Início', link: '/' },
+          { label: 'Produto' },
           { label: product.title }
         ]}
       />
     </Hero>
     <Section>
-      <p>Descrição do produto</p>
-      <p>Justificativa do produto</p>
-      <p>Vantagem do produto</p>
-      <h5>Requisitos:</h5>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies
+        viverra lacus, sit amet pharetra dui tincidunt eu. Praesent faucibus sed
+        nisl eget sollicitudin. Pellentesque vitae laoreet dui, sit amet mollis
+        neque. Quisque bibendum vel felis non dignissim. Aliquam erat volutpat.
+        Cras accumsan, urna vel venenatis feugiat, est leo aliquet orci, aliquam
+        aliquam nunc purus eget lectus. Vivamus et fermentum felis. Praesent
+        pharetra venenatis mi nec scelerisque.
+      </p>
+      <h5>Requisitos desse produto:</h5>
       <PinnedList>
         <PinnedItem>
-          <FaIdCard /> RG
+          <FaIdCard /> Requisito 01
         </PinnedItem>
         <PinnedItem>
-          <FaIdCard /> CPF
+          <FaIdCard /> Requisito 02
         </PinnedItem>
         <PinnedItem>
-          <FaScroll /> Certidão de Nascimento
+          <FaScroll /> Requisito 03
         </PinnedItem>
         <PinnedItem>
-          <FaHome /> Comprovante de Residência
+          <FaHome /> Requisito 04
         </PinnedItem>
       </PinnedList>
     </Section>
     <Section inverse>
       <Callout>
         <CalloutBody>
-          <h6>Título Callout</h6>
-          <p>Descrição do Callout</p>
+          <h6>Fabricante</h6>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut
+            egestas mauris, in finibus mauris. Etiam vitae tortor eget dui
+            sodales molestie. Donec lacinia mattis enim ut molestie. Phasellus
+            dictum imperdiet neque eget vulputate.
+          </p>
           <CalloutActions>
-            <Button color="primary">Inscrever-se</Button>
+            <Button color="primary">Entre em contato</Button>
           </CalloutActions>
         </CalloutBody>
         <CalloutMedia>
