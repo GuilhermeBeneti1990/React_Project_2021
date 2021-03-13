@@ -5,6 +5,6 @@ import Home from './Home'
 
 test('it should render home page', () => {
   render(<Home />)
-  const btnElement = screen.getByText(/contratar/i)
+  const btnElement = screen.getByText(/assinar/i)
   expect(btnElement).toBeInTheDocument()
 })

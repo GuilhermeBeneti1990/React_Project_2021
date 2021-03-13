@@ -47,7 +47,10 @@
     "collectCoverage": true,
     "collectCoverageFrom": [
       "src/components/**/**/*.test.js",
-      "!src/components/**/**/*.stories.js",
+      "!src/components/atoms/**/*.stories.js",
+      "!src/components/molecules/**/*.stories.js",
+      "!src/components/organisms/**/*.stories.js",
+      "!src/components/pages/**/*.stories.js",
       "!src/App.js",
       "!src/index.js",
       "!src/reportWebVitals.js"
