@@ -44,6 +44,7 @@ const products = [
   {
     id: 6,
     title: 'Produto 06',
+    slang: 'sexto-produto',
     description: 'Descrição desse produto ou serviço',
     image: Food6
   }

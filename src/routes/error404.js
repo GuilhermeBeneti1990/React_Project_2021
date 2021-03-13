@@ -6,7 +6,7 @@ import ErrorImage from 'draws/Error'
 const error404 = () => (
   <Error
     image={<ErrorImage />}
-    title="Página náo encontrada"
+    title="Página não encontrada"
     description="Ops, não encontramos a página que procura"
   />
 )
