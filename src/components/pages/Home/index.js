@@ -36,17 +36,29 @@ const Home = ({ products }) => (
     </Hero>
     <Section>
       <Grid sm={2} md={4}>
-        <Feature icon={<FaCar />} title="Feature 01">
-          <p>Descrição da feature n•1</p>
+        <Feature icon={<FaCar />} title="Velocidade">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
         </Feature>
-        <Feature icon={<FaKey />} title="Feature 02">
-          <p>Descrição da feature n•2</p>
+        <Feature icon={<FaKey />} title="Segurança">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
         </Feature>
-        <Feature icon={<FaMapMarkedAlt />} title="Feature 03">
-          <p>Descrição da feature n•3</p>
+        <Feature icon={<FaMapMarkedAlt />} title="Localização">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
         </Feature>
-        <Feature icon={<FaAccessibleIcon />} title="Feature 04">
-          <p>Descrição da feature n•4</p>
+        <Feature icon={<FaAccessibleIcon />} title="Acessibilidade">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
         </Feature>
       </Grid>
     </Section>
