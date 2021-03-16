@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductDetail from './ProductDetail'
+import ProductDetail from '.'
 
 import { buildProduct } from 'models/builders/products'
 

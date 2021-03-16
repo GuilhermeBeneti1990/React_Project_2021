@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'utils/test-utils'
 
-import Feature from './Feature'
+import Feature from '.'
 
 test('it should render a title', () => {
   const { getByText } = render(<Feature title="My Title"></Feature>)

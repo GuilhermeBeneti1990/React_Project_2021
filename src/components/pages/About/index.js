@@ -1,18 +1,18 @@
 import React from 'react'
 import { ImageContainer } from './About.styles'
 
-import Hero from 'components/molecules/Hero/Hero'
-import Heading from 'components/atoms/Heading/Heading'
+import Hero from 'components/molecules/Hero'
+import Heading from 'components/atoms/Heading'
 import HeroImg from 'assets/cover.jpg'
-import Section from 'components/atoms/Section/Section'
-import Grid from 'components/atoms/Grid/Grid'
+import Section from 'components/atoms/Section'
+import Grid from 'components/atoms/Grid'
 import AboutImg from 'draws/About'
-import Footer from 'components/organisms/Footer/Footer'
+import Footer from 'components/organisms/Footer'
 import Card, {
   CardMedia,
   CardMediaDescription
-} from 'components/molecules/Card/Card'
-import Breadcrumb from 'components/atoms/Breadcrumb/Breadcrumb'
+} from 'components/molecules/Card'
+import Breadcrumb from 'components/atoms/Breadcrumb'
 
 import ProfImg01 from 'assets/teachers/prof_01.jpg'
 import ProfImg02 from 'assets/teachers/prof_02.jpg'

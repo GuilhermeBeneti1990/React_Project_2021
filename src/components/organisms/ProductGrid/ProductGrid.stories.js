@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductGrid from './ProductGrid'
+import ProductGrid from '.'
 
 import { buildProducts } from 'models/builders/products'
 

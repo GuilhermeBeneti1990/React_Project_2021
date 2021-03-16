@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'utils/test-utils'
 
-import Hero from './Hero'
+import Hero from '.'
 
 test('renders Hero with children', () => {
   const { getByText } = render(

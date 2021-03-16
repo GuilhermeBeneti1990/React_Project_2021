@@ -8,9 +8,9 @@ import {
   FaTwitter
 } from 'react-icons/fa'
 
-import Container from 'components/atoms/Container/Container'
-import Grid from 'components/atoms/Grid/Grid'
-import Heading from 'components/atoms/Heading/Heading'
+import Container from 'components/atoms/Container'
+import Grid from 'components/atoms/Grid'
+import Heading from 'components/atoms/Heading'
 
 const Footer = () => (
   <Root>

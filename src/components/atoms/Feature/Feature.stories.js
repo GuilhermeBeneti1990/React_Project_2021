@@ -1,7 +1,7 @@
 import React from 'react'
-import Feature from './Feature'
+import Feature from '.'
 import { FaCar, FaKey, FaMapMarkedAlt, FaAccessibleIcon } from 'react-icons/fa'
-import Grid from '../Grid/Grid'
+import Grid from '../Grid'
 
 export default {
   title: 'Components/Atoms/Feature',

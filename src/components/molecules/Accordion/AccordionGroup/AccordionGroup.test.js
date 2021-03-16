@@ -2,7 +2,7 @@ import React from 'react'
 import { fireEvent, render, screen } from '../../../../utils/test-utils'
 
 import AccordionGroup from './AccordionGroup'
-import Accordion from '../Accordion'
+import Accordion from '..'
 
 const title = 'Accordion Title'
 

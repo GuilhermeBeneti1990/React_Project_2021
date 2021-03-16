@@ -1,7 +1,7 @@
 import React from 'react'
 import { fireEvent, render, screen } from 'utils/test-utils'
 
-import ProductGrid from './ProductGrid'
+import ProductGrid from '.'
 
 const buildProducts = (size) => {
   const result = []

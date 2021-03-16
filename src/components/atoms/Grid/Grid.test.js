@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'utils/test-utils'
 
-import Grid from './Grid'
+import Grid from '.'
 
 test('it should match snapshot without params', () => {
   const { asFragment } = render(<Grid></Grid>)

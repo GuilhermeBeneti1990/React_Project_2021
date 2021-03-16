@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
-import Grid from 'components/atoms/Grid/Grid'
-import Heading from 'components/atoms/Heading/Heading'
+import Grid from 'components/atoms/Grid'
+import Heading from 'components/atoms/Heading'
 
 import { ErrorContent, ImageContainer } from './Error.styles'
-import Section from 'components/atoms/Section/Section'
-import Button from 'components/atoms/Button/Button'
+import Section from 'components/atoms/Section'
+import Button from 'components/atoms/Button'
 
 const Error = ({ image, title, description }) => (
   <Section>

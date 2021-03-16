@@ -1,7 +1,7 @@
 import React from 'react'
 import { fireEvent, render, screen } from 'utils/test-utils'
 
-import Accordion from './Accordion'
+import Accordion from '.'
 
 const title = 'Title'
 const text = 'Children text'

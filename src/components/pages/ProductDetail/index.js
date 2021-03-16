@@ -1,20 +1,20 @@
 import React from 'react'
 
-import Hero from 'components/molecules/Hero/Hero'
+import Hero from 'components/molecules/Hero'
 import HeroImg from 'assets/cover.jpg'
-import Heading from 'components/atoms/Heading/Heading'
-import Section from 'components/atoms/Section/Section'
-import Button from 'components/atoms/Button/Button'
-import Footer from 'components/organisms/Footer/Footer'
+import Heading from 'components/atoms/Heading'
+import Section from 'components/atoms/Section'
+import Button from 'components/atoms/Button'
+import Footer from 'components/organisms/Footer'
 import {
   Callout,
   CalloutBody,
   CalloutMedia,
   CalloutActions
-} from '../../organisms/Callout/Callout'
-import { PinnedList, PinnedItem } from 'components/atoms/PinnedTag/PinnedTag'
+} from '../../organisms/Callout'
+import { PinnedList, PinnedItem } from 'components/atoms/PinnedTag'
 import RegisterImg from 'draws/Register'
-import Breadcrumb from 'components/atoms/Breadcrumb/Breadcrumb'
+import Breadcrumb from 'components/atoms/Breadcrumb'
 
 import { FaIdCard, FaHome, FaScroll } from 'react-icons/fa'
 import ProductType from 'models/types/ProductType'

@@ -1,10 +1,10 @@
 import React from 'react'
 import { text } from '@storybook/addon-knobs'
 
-import Hero from './Hero'
+import Hero from '.'
 import Image from '../../../assets/cover.jpg'
-import Heading from '../../atoms/Heading/Heading'
-import Button from '../../atoms/Button/Button'
+import Heading from '../../atoms/Heading'
+import Button from '../../atoms/Button'
 
 export default {
   title: 'Components/Molecules/Hero',

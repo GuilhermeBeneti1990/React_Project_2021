@@ -1,6 +1,6 @@
 import React from 'react'
 
-import AboutPage from 'components/pages/About/About'
+import AboutPage from 'components/pages/About'
 
 import { useScrollToTop } from 'hooks/scroll'
 

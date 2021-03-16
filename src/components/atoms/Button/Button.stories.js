@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './Button'
+import Button from '.'
 import styled from 'styled-components'
 import { actions } from '@storybook/addon-actions'
 

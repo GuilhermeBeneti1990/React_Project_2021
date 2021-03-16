@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, screen } from '../../../utils/test-utils'
 
-import About from './About'
+import About from '.'
 
 beforeEach(() => {
   jest.resetAllMocks()

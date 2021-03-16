@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import Container from 'components/atoms/Container/Container'
+import Container from 'components/atoms/Container'
 import { Content } from './Section.styles'
 
 const Section = ({ children, inverse }) => (

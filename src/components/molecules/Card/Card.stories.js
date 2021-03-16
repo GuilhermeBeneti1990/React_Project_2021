@@ -1,9 +1,9 @@
 import React from 'react'
-import Card, { CardBody, CardMedia, CardMediaDescription } from './Card'
+import Card, { CardBody, CardMedia, CardMediaDescription } from '.'
 
-import Section from 'components/atoms/Section/Section'
-import Heading from 'components/atoms/Heading/Heading'
-import Button from 'components/atoms/Button/Button'
+import Section from 'components/atoms/Section'
+import Heading from 'components/atoms/Heading'
+import Button from 'components/atoms/Button'
 
 import Item from 'assets/Item_01.jpg'
 

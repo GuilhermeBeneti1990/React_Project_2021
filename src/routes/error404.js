@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Error from 'components/pages/Error/Error'
+import Error from 'components/pages/Error'
 import ErrorImage from 'draws/Error'
 
 const error404 = () => (

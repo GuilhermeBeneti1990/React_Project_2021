@@ -1,8 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 
-import ProductDetailPage from 'components/pages/ProductDetail/ProductDetail'
-import Error from 'components/pages/Error/Error'
+import ProductDetailPage from 'components/pages/ProductDetail'
+import Error from 'components/pages/Error'
 import ServerError from 'draws/ServerDown'
 
 import { useScrollToTop } from 'hooks/scroll'

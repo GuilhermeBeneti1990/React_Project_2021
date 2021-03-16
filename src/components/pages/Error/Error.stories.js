@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Error from './Error'
+import Error from '.'
 import ErrorImageNotFound from 'draws/Error'
 import ErrorImageServiceNotFound from 'draws/ServerDown'
 

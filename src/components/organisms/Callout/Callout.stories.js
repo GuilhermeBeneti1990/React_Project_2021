@@ -1,7 +1,7 @@
 import React from 'react'
-import { Callout, CalloutBody, CalloutMedia, CalloutActions } from './Callout'
+import { Callout, CalloutBody, CalloutMedia, CalloutActions } from '.'
 
-import Button from 'components/atoms/Button/Button'
+import Button from 'components/atoms/Button'
 
 import RegisterImg from 'draws/Register'
 

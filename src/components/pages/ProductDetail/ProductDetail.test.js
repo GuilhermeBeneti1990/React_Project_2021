@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, screen } from '../../../utils/test-utils'
 
-import ProductDetail from './ProductDetail'
+import ProductDetail from '.'
 import { buildProduct } from 'models/builders/products'
 
 test('it should render Product Detail Page', () => {

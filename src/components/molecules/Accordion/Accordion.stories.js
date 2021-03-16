@@ -1,5 +1,5 @@
 import React from 'react'
-import Accordion from './Accordion'
+import Accordion from '.'
 import AccordionGroup from 'components/molecules/Accordion/AccordionGroup/AccordionGroup'
 
 export default {
