@@ -9,5 +9,5 @@
 
 - Continuous Integration: Processo de CI implementado com CircleCI
 
-- [Demonstração online da aplicação](react-project-2021-guilhermebeneti1990.vercel.app)
+- [Demonstração online da aplicação](https://react-project-2021-1fy3koa7g-guilhermebeneti1990.vercel.app/)
 - [Documentação dos componentes da aplicação](https://6046253a30de360021d2bae0-vwmpjgwjky.chromatic.com/?path=/story/breakpoints--page)
